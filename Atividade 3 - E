@@ -2,13 +2,17 @@ using System;
 
 namespace Atividade_3__E
 {
+	using System;
+
+namespace Atividade_3__E
+{
 	class Program
 	{
 		public static void Main(string[] args)
 		{
 			Console.WriteLine("Digite dois numeros: ");
-			int n1 = Convert.ToInt32(Console.ReadLine());
-			int n2 = Convert.ToInt32(Console.ReadLine());
+			double n1 = Convert.ToDouble(Console.ReadLine());
+			double n2 = Convert.ToDouble(Console.ReadLine());
 			
 			
 			
