@@ -1,0 +1,24 @@
+using System;
+
+namespace Atividade_3__C
+{
+	class Program
+	{
+		public static void Main(string[] args)
+		{
+			Console.WriteLine("Digite dois numeros: ");
+			int n1 = Convert.ToInt32(Console.ReadLine());
+			int n2 = Convert.ToInt32(Console.ReadLine());
+			
+			
+			if (n1 == n2) {
+				Console.WriteLine("Eles são iguais");
+			}else{
+				Console.WriteLine("Eles são diferentes");
+			}
+			
+			Console.Write("Pressione para continuar . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
