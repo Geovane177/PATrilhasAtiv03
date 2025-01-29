@@ -1,0 +1,25 @@
+	using System;
+
+namespace Atividade_3__H
+{
+	class Program
+	{
+		public static void Main(string[] args)
+		{
+			Console.WriteLine("Digite um numeros: ");
+			double n1 = Convert.ToDouble(Console.ReadLine());
+		
+			
+			
+			
+			if (n1 > 0) {
+				Console.WriteLine("é um numero positivo");
+		
+			}else{
+				Console.WriteLine("é um numero negativo");
+			}
+			Console.Write("Pressione para continuar . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
