@@ -1,0 +1,25 @@
+	using System;
+
+namespace Atividade_3__E
+{
+	class Program
+	{
+		public static void Main(string[] args)
+		{
+			Console.WriteLine("Digite dois numeros: ");
+			double n1 = Convert.ToDouble(Console.ReadLine());
+			double n2 = Convert.ToDouble(Console.ReadLine());
+			
+			
+			
+			if (n1 <= n2) {
+				Console.WriteLine(n1 +" é menor ou igual a "+ n2);
+		
+			}else{
+						Console.WriteLine( n1 +" é maior que "+ n2);
+			}
+			Console.Write("Pressione para continuar . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
