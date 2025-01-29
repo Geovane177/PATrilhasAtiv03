@@ -1,0 +1,26 @@
+
+	using System;
+
+namespace Atividade_3__J
+{
+	class Program
+	{
+		public static void Main(string[] args)
+		{
+			Console.WriteLine("Digite um numero de ponto flutuante: ");
+			double n1 = Convert.ToDouble(Console.ReadLine());
+		
+			
+			
+			
+			if (n1 == 0) {
+				Console.WriteLine("ele é igual a zero");
+		
+			}else{
+				Console.WriteLine("o número não é igual a zero");
+			}
+			Console.Write("Pressione para continuar . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
