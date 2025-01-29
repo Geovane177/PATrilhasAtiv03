@@ -1,0 +1,27 @@
+using System;
+
+namespace Atividade_3__F
+{
+	class Program
+	{
+		public static void Main(string[] args)
+		{
+			Console.WriteLine("Digite um numeros: ");
+			int n1 = Convert.ToInt32(Console.ReadLine());
+			
+			
+			int resto = n1 % 2;
+			
+			
+			if (resto == 0 ) {
+				Console.WriteLine(n1 +" é par");
+		
+			}else{
+						Console.WriteLine( n1 +" é impar");
+			}
+			Console.Write("Pressione para continuar . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
+	
