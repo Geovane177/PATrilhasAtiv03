@@ -10,9 +10,9 @@ namespace Atividade_3__A
 			
 			
 			if (n1 > n2) {
-				Console.WriteLine("O numero "+ n1 +" é maior que "+ n2);
+				Console.WriteLine("O primeiro numero é maior que o segundo numero");
 			}else{
-				Console.WriteLine("O numero "+ n2 +" é maior que "+ n1);
+				Console.WriteLine("O segundo numero é maior que o primeiro numero);
 			}
 			
 			Console.Write("Pressione para continuar . . . ");
