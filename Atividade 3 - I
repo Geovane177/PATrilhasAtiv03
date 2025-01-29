@@ -1,0 +1,25 @@
+	using System;
+
+namespace Atividade_3__I
+{
+	class Program
+	{
+		public static void Main(string[] args)
+		{
+			Console.WriteLine("Digite dois numeros: ");
+			int n1 = Convert.ToInt32(Console.ReadLine());
+			int n2 = Convert.ToInt32(Console.ReadLine());
+			
+			int sub = n1 - n2;
+		
+			if (sub <= 10) {
+				Console.WriteLine("A diferença do primeiro numero para o segundo número é inferior ou igual a 10");
+		
+			}else{
+				Console.WriteLine("a diferença do primeiro numero para o segundo número é superior a 10");
+			}
+			Console.Write("Pressione para continuar . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
