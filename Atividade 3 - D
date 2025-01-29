@@ -1,3 +1,5 @@
+using System;
+
 namespace Atividade_3__D
 {
 	class Program
@@ -11,8 +13,11 @@ namespace Atividade_3__D
 			
 			
 			if (n1 < n2 && n1 > n3) {
-				Console.WriteLine(n1 +" é menor que "+ n2 +" e maior que "+ n3);
+				Console.Write(n1 +" é menor que "+ n2 +" e "+ n1+ " ");
 		
+			}
+			if (n1 > n3) {
+				Console.WriteLine( n1 +" é maior que "+ n3);
 			}
 			Console.Write("Pressione para continuar . . . ");
 			Console.ReadKey(true);
